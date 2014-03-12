@@ -1,0 +1,12 @@
+!!!
+%html
+  %body
+    - provide(:title, 'About us')
+    %h1 About us
+    %p
+      The
+      %a{href: "http://railstutorial.org/"} Ruby on Rails Tutorial
+      is a project to make a book and screencasts to teach web development
+      with
+      = succeed "." do
+        %a{href: "http://rubyonrails.org/"} Ruby on Rails
