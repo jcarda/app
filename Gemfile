@@ -8,6 +8,9 @@ gem "haml-rails", "~> 0.5.3"
 #gem to use bootstrap
 gem 'bootstrap-sass', '2.3.2.0'
 
+#hash function
+gem 'bcrypt-ruby', '3.1.2'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.3'
 
