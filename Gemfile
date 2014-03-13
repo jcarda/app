@@ -2,8 +2,11 @@ source 'https://rubygems.org'
 ruby '2.0.0'
 #ruby-gemset=railstutorial_rails_4_0
 
-#gem pour utiliser haml
+#gem to use haml
 gem "haml-rails", "~> 0.5.3"
+
+#gem to use bootstrap
+gem 'bootstrap-sass', '2.3.2.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.3'
